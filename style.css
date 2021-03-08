@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Feb, 2021, 8:55:53 AM
+    Author     : 91724
+*/
+.nava{
+    background-color: black;
+}
+.topbar{
+     margin: 20px;
+}
+.topbar:hover{
+    text-decoration: none;
+}
+.navb{
+   padding: 15px;
+   font-size: 16px;
+}
+.navb:hover{
+    background-color: red;
+}
+.dropdown-menu li{
+    padding: 2px;
+    font-size: 16px;
+}
+.backgroundimg{
+    overflow: auto;
+    background-image: url("img/ngo1.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -20px;
+    text-align: center;
+}
+.textcenter{
+    /*position: absolute;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    padding-left: 10%;
+    overflow:hidden;
+    margin-bottom: 12%;
+    max-width: 660px;
+    text-align: left;
+    color: white;*/
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.thumbnail{
+    height: inherit;
+    border: none;
+    padding: 30px;
+}
+.thumbnail:hover {
+    -moz-box-shadow: 2px 2px 5px #999;
+  -webkit-box-shadow: 2px 2px 5px #999;
+  box-shadow: 2px 2px 5px #999;
+
+}
+.caption{
+    text-decoration: none;
+    text-align: center;
+}
