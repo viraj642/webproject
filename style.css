@@ -1,72 +1,62 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 25 Feb, 2021, 8:55:53 AM
-    Author     : 91724
-*/
-.nava{
-    background-color: black;
+
+.navbar-custom{
+     background-color: rgb(0,0,0,0.9); 
+     
 }
-.topbar{
-     margin: 20px;
+.navbar{
+    padding-bottom: 1px;
+    padding-top: 1px;
 }
-.topbar:hover{
-    text-decoration: none;
+.nav-item .nav-link
+{
+    color: rgb(255,255,255);
 }
-.navb{
-   padding: 15px;
-   font-size: 16px;
+
+.navbar-custom .nav-item.active .nav-link{
+    color: rgb(255,0,0,0.9);
 }
-.navb:hover{
-    background-color: red;
+
+.nav-item:hover .nav-link{
+    color: rgb(255,0,0,0.9);
 }
-.dropdown-menu li{
-    padding: 2px;
-    font-size: 16px;
+
+.navbar-custom .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
 }
-.backgroundimg{
+
+.bg-img{
     overflow: auto;
     background-image: url("img/ngo1.jpg");
-    background-color: #cccccc;
     height: 700px;
     background-position: center;
     background-size: cover;
-    position: relative;
-    margin-top: -20px;
-    text-align: center;
 }
+
 .textcenter{
-    /*position: absolute;
-    padding-top: 3%;
-    padding-bottom: 6%;
-    padding-left: 10%;
-    overflow:hidden;
-    margin-bottom: 12%;
-    max-width: 660px;
-    text-align: left;
-    color: white;*/
-    text-align: left;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding-left: 15%;
+    width: 60%;
+}
+
+.templet{
+    background:#ff5c33;
+    width:100%;
+    height: 50%;
+    font-family: sans-serif;
     color: white;
 }
-.thumbnail{
-    height: inherit;
-    border: none;
-    padding: 30px;
-}
-.thumbnail:hover {
-    -moz-box-shadow: 2px 2px 5px #999;
-  -webkit-box-shadow: 2px 2px 5px #999;
-  box-shadow: 2px 2px 5px #999;
 
+.img-thumbnail{
+    border: none;
+    margin: 0px;
+    padding: 50px;
+    width: 100%;
 }
-.caption{
-    text-decoration: none;
-    text-align: center;
+
+.img-thumbnail:hover{
+    box-shadow: 2px 8px 12px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pics{
+    width: 70%;
+    height: 50%;
 }
