@@ -18,6 +18,8 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="style.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <script src="validation.js"></script>
     </head>
     <body>
         <header>
@@ -172,28 +174,32 @@ and open the template in the editor.
         <div class="container">
             <div class="row">
                 <div class="col-5 offset-3">
-                <form>
+                    <form name="form1">
                     <div class="form-group">
                     <label>Your Name</label>
-                    <input type="text" class="form-control" name="name">
+                    <input type="text" class="form-control" name = "Name">
+                    <span id="error-name" style="color: red"></span><br>
                     </div>
                     <div class="form-group">
                     <lable>Contact No</lable>
-                    <input type="text" class="form-control" name="num">
+                    <input type="text" class="form-control" name = "num">
+                    <span id="error-num" style="color: red"></span><br/>
                     </div>
                     <div class="form-group">
                     <lable>Email</lable><span style="color: red;">*</span>
-                    <input type="Email" class="form-control" name="email">
+                    <input type="Email" class="form-control" name = "email">
+                    <span id="error-email" style="color: red"></span><br>
                     </div>
                     <div class="form-group">
                     <lable>Company name</lable>
-                    <input type="text" class="form-control" name="cname">
+                    <input type="text" class="form-control" name = "cname">
+                    <span id="error-cname" style="color: red"></span><br>
                     </div>
                     <div class="form-group">
                     <lable>Message</lable>
                     <textarea rows="6" cols="55" class="form-control"></textarea>
                     </div>
-                    <input type="button" name="send" value="SEND" class="btn btn-primary">
+                        <input type="button" onclick="validate()" name="send" value="Submit" class="btn btn-primary">
                     <br>
                     <br>
                 </form>
